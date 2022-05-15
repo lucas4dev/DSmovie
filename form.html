@@ -33,9 +33,32 @@
                     <div class="dsmovie-card">
                         <img src="https://www.themoviedb.org/t/p/original/abG9ldrNqSEoguBsi9hmnjusJ0.jpg"
                             alt="Don't look up">
-                        <div class="dsmovie-card-description">
+                        <div class="dsmovie-form-description">
                             <h3>Don't Look Up</h3>
-                            <a class="dsmovie-button" href="index.html">Cancelar</a>
+
+                            <form class="dsmovie-form"> 
+                                <div class="form-group dsmovie-form-group">
+                                    <label for="email"> Informe seu email</label>
+                                    <input class="form-control" type="email" id="email"> 
+                                </div>
+                                <div class="form-group dsmovie-form-group">
+                                    <label for="score">Informe sua avaliação</label>
+                                    <select class="form-control" name="score" id="score">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                                <div class="dsmovie-form-button-container">
+                                    <button class="dsmovie-button" type ="submit">Salvar</button>
+                                    <a class="dsmovie-button" href="index.html">Cancelar</a>
+                                </div>
+
+                            </form>
+
+                            
                         </div>
                     </div>
                 </div>
